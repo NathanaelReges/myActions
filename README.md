@@ -24,8 +24,7 @@ myActions.add({
 })
 
 ```
-
-<br/><br/>**myActions.add(args)**  
+**myActions.add(args)**  
 &ensp;&ensp;A method for adding actions. It accepts a single key - function pair or an object with several pairs.
 <br/>&ensp;&ensp;**args1** (key, function)  
 &ensp;&ensp;&ensp;&ensp;The key is a string representing the data-act="key" attribute and function is the function to be executed for that action.
