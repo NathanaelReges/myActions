@@ -5,12 +5,12 @@ A tool to help you respond to clicks in a easy way.
 ```
 //html
 <body>
-	<p>Title</p>
+	<h1>Title</h1>
 	<button data-act="turn">Turn me red</button>
 	<button data-act="show" data-secret="42">
 		Show my secret
 	</button>
-<body>
+</body>
 
 
 //js
