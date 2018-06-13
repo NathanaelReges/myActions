@@ -20,13 +20,17 @@ myActions.add({
 		alert(dataset.secret)
 	}
 })
-```
+```  
+<br/>  
+
 **`myActions.add(args)`** A method for adding actions. It accepts a single key-function pair or an object with several pairs.   
 &ensp;&ensp;**args:**&ensp;`(key, function)`  
 &ensp;&ensp;&ensp;&ensp;The key is a string representing the `data-act="key"` attribute and function is the function to be executed for that action.   
 &ensp;&ensp;**args:** &ensp;`({key: function})`  
 &ensp;&ensp;&ensp;&ensp;An object where the property names must be the keys and the property values must be the functions. 
- 
+
+<br/>  
+
 **`myActions.remove(args)`** A method for removing actions. It accepts a single key or an object with several keys.   
 &ensp;&ensp;**args:**&ensp;`(key)`   
 &ensp;&ensp;&ensp;&ensp;The key for the action that you want to remove.  
