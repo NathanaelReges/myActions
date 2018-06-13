@@ -21,14 +21,14 @@ myActions.add({
 	}
 })
 ```
-**`myActions.add(args)`** &ensp; A method for adding actions. It accepts a single key - function pair or an object with several pairs.   
+**`myActions.add(args)`** A method for adding actions. It accepts a single key-function pair or an object with several pairs.   
 &ensp;&ensp;**args:**&ensp;`(key, function)`  
-&ensp;&ensp;&ensp;&ensp;The key is a string representing the data-act="key" attribute and function is the function to be executed for that action.   
-&ensp;&ensp;**args:** &ensp;`({key: function})`
+&ensp;&ensp;&ensp;&ensp;The key is a string representing the `data-act="key"` attribute and function is the function to be executed for that action.   
+&ensp;&ensp;**args:** &ensp;`({key: function})`  
 &ensp;&ensp;&ensp;&ensp;An object where the property names must be the keys and the property values must be the functions. 
  
-**`myActions.remove(args)`** &ensp; A method for removing actions. It accepts a single key or an object with several keys.   
+**`myActions.remove(args)`** A method for removing actions. It accepts a single key or an object with several keys.   
 &ensp;&ensp;**args:**&ensp;`(key)`   
 &ensp;&ensp;&ensp;&ensp;The key for the action that you want to remove.  
 &ensp;&ensp;**args:**&ensp;`({key})`  
-&ensp;&ensp;&ensp;&ensp;An object with all the keys that you want to remove. Tip: you can use the same object passed to myActions.add()
+&ensp;&ensp;&ensp;&ensp;An object with all the keys that you want to remove. Tip: you can use the same object provided to `myActions.add(actionsObj)`
